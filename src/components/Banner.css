@@ -39,7 +39,7 @@
   background-color: rgb(187, 114, 5);
 }
 
-/* .banner__footerBottom {
+.banner__footerBottom {
   height: 140px;
   background-image: linear-gradient(
     180deg,
@@ -47,4 +47,4 @@
     rgba(199, 138, 46, 0.952),
     #fc7f32
   );
-} */
+} 
