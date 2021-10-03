@@ -1,0 +1,36 @@
+.login {
+  padding-top: 150px;
+  padding-bottom: 277px;
+  background-color: rgb(233, 138, 15);
+}
+
+.login__logo {
+  background-color: #fb701b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  width: 60%;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+
+.login__logo > img {
+  object-fit: contain;
+  height: 150px;
+  padding-bottom: 20px;
+}
+
+.login__logo > h1 {
+  padding-bottom: 20px;
+  color: white;
+}
+
+.login__logo > button {
+  font-weight: 900;
+  background-color: #902508;
+  
+}

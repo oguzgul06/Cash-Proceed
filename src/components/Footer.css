@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+
+.footer__left > h2 {
+  color: white;
+}
+.footer__left > p {
+  color: white;
+}
+
+.footer__right {
+  margin-top: 25px;
+}
+
+.icons {
+  color: white;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.icons:hover {
+  color: #fb9603;
+}

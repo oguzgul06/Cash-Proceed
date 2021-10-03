@@ -1,0 +1,62 @@
+.content {
+  background-color: #fb701b;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.content__header {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  padding-top: 7px;
+  padding-left: 5px;
+  color: #902508;
+}
+.content__header > h2 {
+  font-weight: 900;
+  color: #902508;
+}
+
+.content__posters {
+  background-color: rgb(233, 138, 15);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+  width: 30%;
+  margin: 20px;
+  border-radius: 20px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+.content__posters:hover {
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 9);
+}
+
+.container {
+  display: flex;
+  padding: 2px 6px;
+}
+
+.content__posters > img {
+  border-radius: 20px;
+}
+
+.container > h4 {
+  color: #902508;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.container > button {
+  margin-left: 5px;
+  color: #fb701b;
+  background-color: #902508;
+  cursor: pointer;
+  border: none;
+}
+
+.container > button:hover {
+  color: aliceblue;
+}
