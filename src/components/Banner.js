@@ -24,7 +24,7 @@ function Banner() {
             My Account
           </button>
         </div>
-        <div className="banner__footerBottom" />
+        {/* <div className="banner__footerBottom" /> */}
       </header>
     </div>
   );
